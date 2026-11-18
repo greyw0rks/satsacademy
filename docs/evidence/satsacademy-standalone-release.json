@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "checkedAt": "2026-11-18T11:23:38.453Z",
+  "product": "satsacademy",
+  "origin": "https://satsacademy.vercel.app",
+  "assets": [
+    {
+      "path": "/assets/index-DAz6Fy20.js",
+      "bytes": 443468,
+      "sha256": "1e7cf52e2cfed3d640b0ad5c69393e2e19c2af08bd19111608c0d1d863b6938f"
+    },
+    {
+      "path": "/assets/index-jMlMu4rp.css",
+      "bytes": 103183,
+      "sha256": "8e5372010c97221efe58edeb42fc1ea331b3404b76640ebc8136d08745f53e97"
+    }
+  ],
+  "routes": [
+    "/app",
+    "/app/lessons/bitcoin",
+    "/app/wallet",
+    "/app/records",
+    "/app/profile",
+    "/app/guide"
+  ],
+  "sessionChecks": [
+    "Fresh generated builder Nostr identity signs into this independent origin",
+    "Replay rejected",
+    "Owner learning endpoints use Convex",
+    "No learning wallet connected",
+    "Logout invalidates the session"
+  ],
+  "viewports": [
+    1440,
+    1024,
+    390,
+    360
+  ],
+  "screenshots": [
+    "1440-landing.png",
+    "1440-lesson.png",
+    "1024-landing.png",
+    "1024-lesson.png",
+    "390-landing.png",
+    "390-lesson.png",
+    "360-landing.png",
+    "360-lesson.png"
+  ],
+  "pageErrors": [],
+  "classification": "Standalone hosting and generated builder identity verification. No wallet connection, payment, public messages or independent adoption."
+}
