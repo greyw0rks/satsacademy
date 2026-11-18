@@ -49,7 +49,7 @@ https://github.com/greyw0rks/satsacademy
 
 ## Video demo URL
 
-Render/export, upload to YouTube or Vimeo, then enter the actual URL.
+Render/export, upload to YouTube or Vimeo, and enter the actual URL.
 
 ## Additional information
 
@@ -57,5 +57,5 @@ Builder-controlled verification is documented in the included evidence. The reta
 
 ## Upload a file
 
-satsacademy-devpost.zip — source, evidence, submission copy and images.
+satsacademy-devpost.zip
 

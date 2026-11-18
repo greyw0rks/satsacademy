@@ -1,4 +1,8 @@
 node_modules
+demo
+submission
+docs/satsacademy/submission/*.zip
+docs/satsacademy/submission/*.sha256
 .data/
 .env
 .env.*

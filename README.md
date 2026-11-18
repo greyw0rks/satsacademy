@@ -21,3 +21,5 @@ SatsAcademy has its own repository, site and submission. This release builds onl
 Hausa awaits native-speaker review. Existing payment and browser evidence comes from builder-controlled tests; independent learner adoption is unmeasured.
 
 Read the [product guide](docs/satsacademy/README.md), [security notes](docs/satsacademy/SECURITY.md) and [demo outline](docs/satsacademy/DEMO.md).
+
+Submission copy is in [DEVPOST.md](docs/satsacademy/DEVPOST.md). The local `submission` and `demo` shortcuts open the upload kit and editable film.

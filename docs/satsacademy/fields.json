@@ -2,8 +2,24 @@
   "projectName": "SatsAcademy",
   "elevatorPitch": "Learn Bitcoin in English and Hausa through practical quests, then verify a Lightning payment with your own receiving wallet.",
   "aboutProjectMarkdown": "## Inspiration\n\nA beginner can recognize Bitcoin words without knowing how to check a payment safely. SatsAcademy gives learners in Nigeria and West Africa a short path from an explanation to a concrete exercise and a verifiable result.\n\n## What it does\n\nThree complete quests cover Bitcoin units, wallet safety, and Lightning payment states. Learners use interactive explanations and a units converter, answer server-graded knowledge checks, and retain progress through a signed Nostr identity. English and an initial Hausa translation share the same learning path.\n\nA separate receiving-only wallet lab connects a restricted Nostr Wallet Connect wallet, creates a 10-sat invoice, and checks receiving-wallet settlement. Another wallet must pay the invoice on the same network. A matching payment preimage, amount, network, owner and source wallet are required before the practical Lightning Explorer achievement is awarded. A knowledge badge and a payment badge have different evidence.\n\nThe course guide uses the lesson material. Learners can export their records, and an explicitly confirmed lesson reset retains verified payment receipts. The learning wallet is separate from the company treasury.\n\n## How we built it\n\nThe interface uses React, TypeScript and Vite, with original SVG exercises, locally bundled fonts and horizontal desktop and phone navigation. Convex stores durable profiles, progress, quiz attempts and owner-bound wallet exercises. Nostr-signed authentication identifies an account; NWC supplies narrowly permissioned wallet access. The local lab uses Bitcoin Core and two LND regtest wallets.\n\n## Challenges and what we learned\n\nPending invoices must remain pending until the receiving wallet supplies matching settlement proof. Browser state cannot establish payment. Async wallet requests need account checks, replay protection and stable receipt handling. Resetting lessons must not erase payment evidence. Translation also requires a separate native-speaker review rather than an assumption of language quality.\n\n## Verified result\n\nThe retained released source passed 339 automated checks and 57 browser checks across 360, 390, 1024 and 1440-pixel widths. A hosted Convex/private LND exercise completed 23 wallet and learning checks, including an actual 10-sat regtest payment and matching receiving-wallet proof. The editable demo combines a local lesson walkthrough with that separately labeled retained payment record. These are builder-controlled engineering checks. Regtest coins have no monetary value; no independent adoption or mainnet settlement is claimed.\n\n## What's next\n\nReview Hausa with native speakers and run a small workshop with independent learners. Measure lesson completion, time to a first verified exercise, wallet connection failures, recovery success, and task completion on phones and weak connections. Add French after content validation. There are no cash rewards or invented learner counts.",
-  "builtWith": ["React", "TypeScript", "Vite", "Convex", "Nostr", "Nostr Wallet Connect", "Bitcoin", "Lightning Network", "LND", "Node.js", "SQLite", "CSS"],
-  "tryItOutLinks": ["https://satsacademy.vercel.app/", "https://github.com/greyw0rks/satsacademy"],
+  "builtWith": [
+    "React",
+    "TypeScript",
+    "Vite",
+    "Convex",
+    "Nostr",
+    "Nostr Wallet Connect",
+    "Bitcoin",
+    "Lightning Network",
+    "LND",
+    "Node.js",
+    "SQLite",
+    "CSS"
+  ],
+  "tryItOutLinks": [
+    "https://satsacademy.vercel.app/",
+    "https://github.com/greyw0rks/satsacademy"
+  ],
   "videoUrl": null,
   "additionalInformation": "Builder-controlled verification is documented in the included evidence. The retained payment used two private LND regtest wallets and has no monetary value. The new lesson recording has no connected wallet; its retained 16 November payment panel is identified separately. Hausa awaits native-speaker review. Independent learner outcomes remain unmeasured. Receiving permissions require make_invoice and lookup_invoice; the academy exposes no payment-send operation. The user will render/export the editable video, upload it to YouTube or Vimeo, and enter the actual video URL. Submission is not confirmed.",
   "uploadFile": "satsacademy-devpost.zip",
