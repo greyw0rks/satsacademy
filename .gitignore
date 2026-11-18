@@ -1,0 +1,16 @@
+node_modules
+.data/
+.env
+.env.*
+!.env.example
+dist/
+**/dist/
+playwright-report/
+test-results/
+.tools/
+.tools
+*.log
+.atlas/
+.vercel/
+.railway/
+.env.local
